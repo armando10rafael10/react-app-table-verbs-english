@@ -1,0 +1,90 @@
+.super-container-card-interactive{
+    background-color: #89FAD0;
+    width: 100%;
+    height: 100%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.container-card-interactive{
+    width: 100%;
+    height: 100%;
+    background-color: #626cc7;
+    font-family: 'Lobster'; 
+    display:flex;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+.card-interactive{
+    width: 18%;
+    height: 300px;
+    margin: 1%;
+    background-color: rgb(198, 213, 233);
+    display:flex;
+    flex-direction: column;
+}
+.card-interactive-title{
+    width:100%;
+    height: 15%;
+    display:flex;
+    justify-content: center;
+    align-items: flex-end;
+    text-transform: capitalize;
+    font-size: 23px;
+    font-weight: bolder;
+    color:rgb(44, 5, 80);
+    /* outline: solid 2px rgb(179, 255, 0) ; */
+}
+.card-interactive-img{
+    width: 100%;
+    height: 70%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    /* outline: solid 1px rgb(18, 71, 36) ; */
+}
+.card-interactive-subtitle{
+    width:100%;
+    height: 15%;
+    text-transform: capitalize;
+    font-size: 20px;
+    font-weight: bold;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    color:rgb(68, 5, 128);
+    /* outline: solid 2px rgb(50, 252, 23) ; */
+}
+.card-interactive-img img{
+    width: 80%;
+    height: 80%;
+}
+.card-interactive-subtitle .card-interactive-subtitle-container{
+    width: 70%;
+    display:flex;
+    justify-content: center;
+}
+.card-interactive-subtitle .card-interactive-subtitle-container .card-interactive-subtitle-text{
+    width: 83%;
+    display:flex;
+    justify-content: center;
+}
+.card-interactive-subtitle .card-interactive-subtitle-container button{
+    width: 17%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    border:none;
+    outline:none;
+    background-color: rgb(198, 213, 233);
+    color:rgb(68, 5, 128);
+}
+.card-interactive-subtitle .card-interactive-subtitle-container button:hover{
+    background-color: rgb(158, 172, 190);
+    color:rgb(68, 5, 128);
+    border-radius: 50px;
+}
+.card-interactive-subtitle .card-interactive-subtitle-container .card-interactive-subtitle-icon{
+    color:rgb(64, 11, 80);
+}

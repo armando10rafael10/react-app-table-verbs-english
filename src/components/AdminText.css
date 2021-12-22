@@ -1,0 +1,537 @@
+.formDates-container{
+    background :#C0D992;
+    padding: 20px 20px;
+    height:max-content;
+}
+
+
+.fImageVerb-AudioInfinitive{
+    width:100%;
+    display:flex;
+}
+.fImageVerb-AudioInfinitive .fImageVerb{
+    width:50%;
+    height:100%;
+    margin-right: 10px;
+}
+.fImageVerb-AudioInfinitive .fImageVerb .fImageVerb-container{
+    display:flex;
+    width:100%;
+}
+.fImageVerb-container .fImageVerb-checkComplete{
+    width:5%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background: transparent;
+    color:green;
+}
+.fImageVerb-container .fImageVerb-img{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    width:60%;
+    background-color: rgb(120, 219, 120);
+}
+.fImageVerb-container .fImageVerb-img .fImageVerb-img-text{
+    width:40%;
+}
+.fImageVerb-container .fImageVerb-img .fImageVerb-img-text h2{
+    font-size: 22px;
+    font-weight: bolder;
+    display:inline-block;
+}
+.fImageVerb-container .fImageVerb-img .fImageVerb-img-input #file-image{
+    width:200px;
+}
+.fImageVerb-container .fImageVerb-progress{
+    width:30%;
+    background-color: rgb(120, 219, 120);
+}
+.fImageVerb-container .fImageVerb-progressEmpty{
+    width:30%;
+    background-color: rgb(120, 219, 120);
+}
+.fImageVerb-container .fImageVerb-btn{
+    width:5%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(120, 219, 120);
+}
+.fImageVerb-container .fImageVerb-btn button{
+    background:none; 
+    border:none;
+    width:100%;
+    color:rgb(118, 4, 4);
+}
+.fImageVerb .fImageVerb-datesContainer{ 
+    background:rgb(154, 202, 160);
+    margin-left: 5%;
+    display:flex;
+}
+.fImageVerb .fImageVerb-datesContainer .fImageVerb-datesContainer_img{
+    width: 20%;
+    display: flex;
+    justify-content: center;
+}
+.fImageVerb .fImageVerb-datesContainer .fImageVerb-datesContainer_img img{
+    height: 100%;
+    width: 50%;
+}
+.fImageVerb .fImageVerb-datesContainer .fImageVerb-datesContainer_dates{
+    width: 70%;
+}
+.fImageVerb .fImageVerb-datesContainer .fImageVerb-datesContainer_dates h6{
+    font-size: 15px;
+}
+
+
+.fAudioInfinitive{
+    width:50%;
+    height:100%;
+    margin-left: 10px;
+}
+.fAudioInfinitive .fAudioInfinitive-container{
+    display:flex;
+    width:100%;
+}
+.fAudioInfinitive-container .fAudioInfinitive-checkComplete{
+    width:5%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background: transparent;
+    color:green;
+}
+.fAudioInfinitive-container .fAudioInfinitive-audio{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    width:70%;
+    background-color: rgb(208, 179, 185);
+}
+.fAudioInfinitive-container .fAudioInfinitive-audio .fAudioInfinitive-audio-text{
+    width:40%;
+}
+.fAudioInfinitive-container .fAudioInfinitive-audio .fAudioInfinitive-audio-text h2{
+    font-size: 22px;
+    font-weight: bolder;
+    display:inline-block;
+}
+.fAudioInfinitive-container .fAudioInfinitive-audio .fAudioInfinitive-audio-input #file-audioInfinitive{
+    width:200px;
+}
+.fAudioInfinitive-container .fAudioInfinitive-progress{
+    width:20%;
+    background-color: rgb(208, 179, 185);
+}
+.fAudioInfinitive-container .fAudioInfinitive-progressEmpty{
+    width:20%;
+    background-color: rgb(208, 179, 185);
+}
+.fAudioInfinitive-container .fAudioInfinitive-btn{
+    width:5%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(208, 179, 185);
+}
+.fAudioInfinitive-container .fAudioInfinitive-btn button{
+    background:none; 
+    border:none;
+    width:100%;
+    color:rgb(118, 4, 4);
+}
+.fAudioInfinitive .fAudioInfinitive-datesContainer{
+    background:pink;
+    margin-left: 5%;
+    display: flex;
+}
+.fAudioInfinitive .fAudioInfinitive-datesContainer .fAudioInfinitive-datesContainer_audio{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.fAudioInfinitive .fAudioInfinitive-datesContainer .fAudioInfinitive-datesContainer_audio audio{
+    width: 90%;
+    height: 40%;
+}
+.fAudioInfinitive .fAudioInfinitive-datesContainer .fAudioInfinitive-datesContainer_dates{
+    width: 50%;
+}
+.fAudioInfinitive .fAudioInfinitive-datesContainer .fAudioInfinitive-datesContainer_dates h6{
+    font-size: 15px;
+}
+
+.fAudioPast_PParticiple{
+    width:100%;
+    display:flex;
+}
+/*--------------------- */
+.fAudioPast_PParticiple .fAudioPast{
+    width:50%;
+    height:100%;
+    margin-right: 10px;
+}
+.fAudioPast_PParticiple .fAudioPast .fAudioPast_datesContainer{
+    background:rgb(157, 221, 165);
+    margin-left: 5%;
+    display: flex;
+}
+.fAudioPast_PParticiple .fAudioPast .fAudioPast_datesContainer .fAudiodatesContainer_audio{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.fAudioPast_PParticiple .fAudioPast .fAudioPast_datesContainer .fAudiodatesContainer_audio audio{
+    width: 90%;
+    height: 40%;
+}
+.fAudioPast_PParticiple .fAudioPast .fAudioPast_datesContainer .fAudiodatesContainer_dates{
+    width: 50%;
+}
+.fAudioPast_PParticiple .fAudioPast .fAudioPast_datesContainer .fAudiodatesContainer_dates h6{
+    font-size: 14px;
+}
+.fAudioPast_PParticiple .fAudioPast .fAudioPastContainer{
+    display:flex;
+    width:100%;
+}
+.fAudioPast_PParticiple .fAudioPast .fAudioPastContainer .fAudioPastContainer_Check{
+    width:5%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background: transparent;
+    color:blue;
+}
+.fAudioPast_PParticiple .fAudioPast .fAudioPastContainer .fAudioPastContainer_Audio{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    width:60%;
+    background-color: rgb(120, 219, 120);
+}
+.fAudioPast_PParticiple .fAudioPast .fAudioPastContainer .fAudioPastContainer_Audio .fAudioPastContainer_Audio_Text{
+    width:40%;
+}
+.fAudioPast_PParticiple .fAudioPast .fAudioPastContainer .fAudioPastContainer_Audio .fAudioPastContainer_Audio_Text h2{
+    font-size: 22px;
+    font-weight: bolder;
+    display:inline-block;
+}
+.fAudioPast_PParticiple .fAudioPast .fAudioPastContainer .fAudioPastContainer_Audio .fAudioPastContainer_input #file-audioPast{
+    width:200px;
+}
+.fAudioPast_PParticiple .fAudioPast .fAudioPastContainer .fAudioPastContainer_progress{
+    width:30%;
+    background-color: rgb(120, 219, 120);
+}
+.fAudioPast_PParticiple .fAudioPast .fAudioPastContainer .fAudioPastContainer_progressEmpty{
+    width:30%;
+    background-color: rgb(120, 219, 120);
+}
+.fAudioPast_PParticiple .fAudioPast .fAudioPastContainer .fAudioPastContainer_btn{
+    width:5%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(120, 219, 120);
+}
+.fAudioPast_PParticiple .fAudioPast .fAudioPastContainer .fAudioPastContainer_btn button{
+    background:none; 
+    border:none;
+    width:100%;
+    color:rgb(118, 4, 4);
+}
+/* ---------------------- */
+.fAudioPast_PParticiple .fAudioPastParticiple{
+    width:50%;
+    height:100%;
+    margin-left: 10px;
+}
+.fAudioPast_PParticiple .fAudioPastParticiple .fAudioPastParticiple_DatesContainer{
+    background:rgb(87, 39, 197);
+    margin-left: 5%;
+    display: flex;
+}
+.fAudioPast_PParticiple .fAudioPastParticiple .fAudioPastParticiple_DatesContainer .fAudiodatesContainer_audio{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.fAudioPast_PParticiple .fAudioPastParticiple .fAudioPastParticiple_DatesContainer .fAudiodatesContainer_audio audio{
+    width: 90%;
+    height: 40%;
+}
+.fAudioPast_PParticiple .fAudioPastParticiple .fAudioPastParticiple_DatesContainer .fAudiodatesContainer_dates{
+    width: 50%;
+}
+.fAudioPast_PParticiple .fAudioPastParticiple .fAudioPastParticiple_DatesContainer .fAudiodatesContainer_dates h6{
+    font-size: 15px;
+}
+.fAudioPast_PParticiple .fAudioPastParticiple .fAudioPastParticipleContainer{
+    display:flex;
+    width:100%;
+}
+.fAudioPast_PParticiple .fAudioPastParticiple .fAudioPastParticipleContainer .fAudioPastParticipleContainer_Check{
+    width:5%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background: transparent;
+    color:palevioletred;
+}
+.fAudioPast_PParticiple .fAudioPastParticiple .fAudioPastParticipleContainer .fAudioPastParticipleContainer_Audio{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    width:70%;
+    background-color: rgb(219, 120, 120);
+}
+.fAudioPast_PParticiple .fAudioPastParticiple .fAudioPastParticipleContainer .fAudioPastParticipleContainer_Audio .fAudioPastParticipleContainer_Audio_Text{
+    width:40%;
+}
+.fAudioPast_PParticiple .fAudioPastParticiple .fAudioPastParticipleContainer .fAudioPastParticipleContainer_Audio .fAudioPastParticipleContainer_Audio_Text h2{
+    font-size: 22px;
+    font-weight: bolder;
+    display:inline-block;
+}
+.fAudioPast_PParticiple .fAudioPastParticiple .fAudioPastParticipleContainer .fAudioPastParticipleContainer_Audio .fAudioPastParticipleContainer_Audio_input #file-audioPastParticiple{
+    width:200px;
+}
+.fAudioPast_PParticiple .fAudioPastParticiple .fAudioPastParticipleContainer .fAudioPastParticipleContainer_progress{
+    width:20%;
+    background-color: rgb(219, 120, 120);
+}
+.fAudioPast_PParticiple .fAudioPastParticiple .fAudioPastParticipleContainer .fAudioPastParticipleContainer_progressEmpty{
+    width:20%;
+    background-color: rgb(219, 120, 120);
+}
+.fAudioPast_PParticiple .fAudioPastParticiple .fAudioPastParticipleContainer .fAudioPastParticipleContainer_btn{
+    width:5%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(219, 120, 120);
+}
+.fAudioPast_PParticiple .fAudioPastParticiple .fAudioPastParticipleContainer .fAudioPastParticipleContainer_btn button{
+    background:none; 
+    border:none;
+    width:100%;
+    color:rgb(118, 4, 4);
+}
+
+.fAudioThird_Person{
+    width:100%;
+    display:flex;
+}
+/*--------------------- */
+.fAudioThird_Person .fAudioTPerson{
+    width:50%;
+    height:100%;
+    margin-right: 10px;
+}
+.fAudioThird_Person .fAudioTPerson .fAudioTPerson_datesContainer{
+    background:rgb(157, 221, 165);
+    margin-left: 5%;
+    display: flex;
+}
+.fAudioThird_Person .fAudioTPerson .fAudioTPerson_datesContainer .fAudiodatesContainer_audio{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.fAudioThird_Person .fAudioTPerson .fAudioTPerson_datesContainer .fAudiodatesContainer_audio audio{
+    width: 90%;
+    height: 40%;
+}
+.fAudioThird_Person .fAudioTPerson .fAudioTPerson_datesContainer .fAudiodatesContainer_dates{
+    width: 50%;
+}
+.fAudioThird_Person .fAudioTPerson .fAudioTPerson_datesContainer .fAudiodatesContainer_dates h6{
+    font-size: 15px;
+}
+.fAudioThird_Person .fAudioTPerson .fAudioTPersonContainer{
+    display:flex;
+    width:100%;
+}
+.fAudioThird_Person .fAudioTPerson .fAudioTPersonContainer .fAudioTPersonContainer_Check{
+    width:5%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background: transparent;
+    color:blue;
+}
+.fAudioThird_Person .fAudioTPerson .fAudioTPersonContainer .fAudioTPersonContainer_Audio{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    width:60%;
+    background-color: rgb(120, 219, 120);
+}
+.fAudioThird_Person .fAudioTPerson .fAudioTPersonContainer .fAudioTPersonContainer_Audio .fAudioTPersonContainer_Audio_Text{
+    width:40%;
+}
+.fAudioThird_Person .fAudioTPerson .fAudioTPersonContainer .fAudioTPersonContainer_Audio .fAudioTPersonContainer_Audio_Text h2{
+    font-size: 22px;
+    font-weight: bolder;
+    display:inline-block;
+}
+.fAudioThird_Person .fAudioTPerson .fAudioTPersonContainer .fAudioTPersonContainer_Audio .fAudioTPersonContainer_input #file-audioThirdPerson{
+    width:200px;
+}
+.fAudioThird_Person .fAudioTPerson .fAudioTPersonContainer .fAudioTPersonContainer_progress{
+    width:30%;
+    background-color: rgb(120, 219, 120);
+}
+.fAudioThird_Person .fAudioTPerson .fAudioTPersonContainer .fAudioTPersonContainer_progressEmpty{
+    width:30%;
+    background-color: rgb(120, 219, 120);
+}
+.fAudioThird_Person .fAudioTPerson .fAudioTPersonContainer .fAudioTPersonContainer_btn{
+    width:5%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(120, 219, 120);
+}
+.fAudioThird_Person .fAudioTPerson .fAudioTPersonContainer .fAudioTPersonContainer_btn button{
+    background:none; 
+    border:none;
+    width:100%;
+    color:rgb(118, 4, 4);
+}
+/* ---------------------- */
+.fAudioThird_Person .fAudioTPersonEmpty{
+    width:50%;
+    height:100%;
+    margin-left: 10px;
+}
+
+.fInputs{
+    margin-top: 20px;
+    background: rgb(70, 90, 92);
+    padding-left: 2.3%;
+    padding-bottom: 1%;
+}
+.fInputs .fInputs_fil1{
+    width: 100%;
+    height: 40px;
+    display:flex;
+    margin-bottom: 5px;
+}
+.fInputs .fInputs_fil1 .fil_col{
+    width: 20%;
+    height: 100%;
+    display:flex;
+    align-items: center;
+    padding: 2px 0px;
+}
+.fInputs .fInputs_fil1 .fil_col .fil_colText{
+    width:32%;
+    height: 80%; 
+    display:flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin-right: 2px;
+    margin-left: 2px;
+    background-color: rgb(66, 247, 247);
+}
+.fInputs .fInputs_fil1 .fil_col .fil_colText h1{
+    font-size: 18px;
+    width: 50%;
+    height: 40%;
+    display: inline-block;
+    color: rgb(33, 18, 121);
+}
+.fInputs .fInputs_fil1 .fil_col .fil_colInput{
+    width:68%;
+    height: 100%;
+    margin-right: 5%; 
+    display:flex;
+    align-items: center;
+}
+.fInputs .fInputs_fil1 .fil_col .fil_colInput input{
+    width: 100%;
+    height: 80%;
+    font-size: 17px;
+    padding: 3px;
+}
+.fInputs .fInputs_fil1 .fil_col .fil_colInput input:active,
+.fInputs .fInputs_fil1 .fil_col .fil_colInput input:focus{
+    color: rgb(52, 26, 148);
+    outline: 1px solid rgb(55, 0, 255);
+}
+
+.fInputs .fInputs_fil2{
+    /* background: rgb(149, 134, 231); */
+    display:flex;
+    margin-bottom: 5px;
+}
+.fInputs .fInputs_fil3{
+    /* background: rgb(221, 178, 214); */
+    display:flex;
+    margin-bottom: 15px;
+}
+.fil2_col{
+    width: 50%;
+    height: 100%;
+    display:flex;
+    align-items: center;
+    padding: 2px;
+}
+.fil2_col .fil2_colText{
+    width:25%;
+    height: 100%; 
+    display:flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin-right: 4px;
+    background-color: aqua;
+}
+.fil2_col .fil2_colText h1{
+    font-size: 18px;
+    height: 40%;
+    display: inline-block;
+    color: rgb(33, 18, 121);
+}
+.fil2_col .fil2_colInput{
+    width:70%;
+    height: 100%; 
+    display:flex;
+    align-items: center;
+    background-color: rgb(0, 114, 114);
+}
+.fil2_col .fil2_colInput input{
+    width: 100%;
+    height: 80%;
+    font-size: 17px;
+    padding: 3px;
+}
+.fil2_col .fil2_colInput input:active,
+.fil2_col .fil2_colInput input:focus{
+    color: rgb(52, 26, 148);
+    outline: 1px solid rgb(55, 0, 255);
+}
+
+.fInputs_submit{
+    background-color: rgb(14, 133, 30);
+    font-size: 20px;
+    width: 100px;
+    height: 40px;
+    color: rgb(176, 228, 185);
+    border-radius: 30px;
+    /* border: none; */
+    outline: none;
+}
+.fInputs_submit:hover{
+    font-size: 19px;
+    background-color: rgb(8, 73, 16); 
+}

@@ -1,0 +1,82 @@
+.table-verbs-irregulars {
+    border-collapse: separate;
+    text-indent: initial;
+    white-space: normal;
+    line-height: normal;
+    font-weight: normal;
+    font-size: medium;
+    font-style: normal;
+    text-align: start;
+    border-spacing: 2px;
+    font-variant: normal;
+}
+.table-verbs-irregulars td{
+    vertical-align: top;
+    border-bottom: 1px solid #000080;
+    padding: 4px;   
+}
+.column-table .column-table-container{
+    display:flex;
+}
+.column-table-container .column-verb{
+    width:80%;
+    height: 40px;
+    display:flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-left: 10px;
+    /* background-color: red; */
+}
+.column-table-container .column-audio{
+    width:20%;
+    height: 40px;
+    display:flex;
+    align-items: center;
+    justify-content:center;
+    margin-right: 10px;
+}
+.column-table-container .column-verb h2{
+    color:rgb(4, 12, 133);
+    font-size: 17px;
+    text-transform: capitalize;
+}
+.column-table-container .column-audio button{
+    height:30px;
+    color:rgb(61, 42, 42);
+    background-color: white;
+    text-decoration:none;
+    outline: none;
+    border-radius: 50px;
+    border-style: none;
+}
+.column-table-container .column-audio button:hover{
+    background-color: rgb(231, 231, 231);
+}
+
+[data-title]:hover:after {
+    opacity: 1;
+    transition: all 0.1s ease 0.5s;
+    visibility: visible;
+}
+[data-title]:after {
+    content: attr(data-title);
+    background-color: rgb(2, 3, 110);
+    color: #fff;
+    font-size: 14px;
+    font-family: Raleway;
+    position: absolute;
+    padding: 3px 20px;
+    bottom: -1.6em;
+    left: 100%;
+    white-space: nowrap;
+    box-shadow: 1px 1px 3px #222222;
+    opacity: 0;
+    border: 1px solid #111111;
+    z-index: 99999;
+    visibility: hidden;
+    border-radius: 6px;
+    
+}
+[data-title] {
+    position: relative;
+}

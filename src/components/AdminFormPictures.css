@@ -1,0 +1,280 @@
+.img_Upload{
+    background-color: rgb(81, 81, 112);
+    color:aliceblue;
+    width:100%;
+    height:50px;
+    display:flex;
+    padding-left: 3%;
+    padding-right: 3%;
+}
+.img_Upload .upd_contentFileVerbText{
+    width:16%;
+    height:100%;
+    display:flex;
+    align-items: center;
+}
+.img_Upload .upd_contentFileVerbText h1{
+    font-size: 22px;
+    display:inline-block;
+    height:35%;
+}
+.img_Upload .upd_contentFileVerb{
+    width:22%;
+    height:100%;
+    display:flex;
+    align-items: center;
+}
+.img_Upload .upd_contentFileVerb #file-verb{
+    color: transparent;
+    width: 100%;
+    /* margin-left: 10px; */
+}
+.img_Upload .upd_progress{
+    width:54%;
+    height:100%;
+    display:flex;
+    align-items: center;
+    padding-left: 1%;
+}
+.img_Upload .upd_progress progress{
+    width: 100%;
+}
+.img_Upload .img_progress_empty{
+    width:54%;
+    height:100%;
+    display:flex;
+    align-items: center;
+    padding-left: 1%;
+}
+.img_Upload .upd_contentAll{
+    width:10%;
+    height:100%;
+    display:flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+.img_Upload .upd_contentAll button{
+    background-color: rgb(83, 134, 138);
+    color:rgb(143, 248, 248);
+    width:40px;
+    border-radius: 50px;
+    display:inline;
+}
+.img_Upload .upd_contentAll button:hover{
+    background-color: rgb(48, 98, 102);
+    color:aqua;
+}
+
+
+
+
+/* NOTE:CLASE */
+.img_actUpload{
+    background-color: rgb(35, 35, 65);
+    color:rgb(165, 165, 165);
+    width:58%;
+    width:100%;
+}
+.img_actUpload .img_actUpload_cont{
+    display:flex;
+    width:100%;
+    padding:10px;
+}
+/* NOTE:SUBCLASE */
+.img_actUpload .img_actUpload_cont .img_actUpload_contImg{
+    width:20%;
+    height:240px;
+    padding:20px 0px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: rgb(63, 22, 22); */
+}
+.img_actUpload .img_actUpload_cont .img_actUpload_contImg .img_actUpload_contImg_salida{
+    width:80%;
+    height:100%;
+}
+/* NOTE:SUBCLASE */
+.img_actUpload .img_actUpload_cont .img_actUpload_contText{
+    width:76%;
+    margin-left: 25px;
+    margin-top: 25px;
+    text-align: justify;
+    /* background-color: rgb(36, 7, 7); */
+}
+.img_actUpload .img_actUpload_cont .img_actUpload_contText h1{
+    color:rgb(202, 204, 221);
+    font-size: 21px;
+}
+.img_actUpload .img_actUpload_cont .img_actUpload_contText h1 b{
+    color:rgb(168, 171, 197);
+    font-size: 23px;
+}
+.img_actUpload .img_actUpload_cont .img_actUpload_contText .img_btnUpload{
+    color:white;
+    background-color: rgb(43, 43, 122);
+    width: 120px;
+    text-decoration: none;
+    border-radius: 10px;
+    outline:none;
+}
+.img_actUpload .img_actUpload_cont .img_actUpload_contText .img_btnUpload:hover{
+    color:rgb(192, 231, 245);
+    background-color: rgb(40, 40, 104);
+    text-decoration: none;
+}
+/* NOTE:SUBCLASE */
+.img_actUpload .img_actUpload_cont .img_actUpload_contClose{
+    width:4%;
+    display:flex;
+    justify-content: flex-end;
+    /* background-color: rgb(73, 28, 28); */
+}
+.img_actUpload .img_actUpload_cont .img_actUpload_contClose button{
+    width:100%;
+    height:13%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+    background-color: red;
+    color:white;
+}
+.img_actUpload .img_actUpload_cont .img_actUpload_contClose button:hover{
+    background-color: rgb(255, 45, 45);
+    color:rgb(228, 228, 228);
+}
+
+
+
+
+.listFiles{
+    width:100%;
+    background-color: #414063;
+}
+/* NOTE:CLASE 2*/
+.LFMain{
+    background-color: #9897c4;
+    display:flex;
+    width:100%;
+    height: 250px;
+    margin-bottom: -20px;
+}
+/* NOTE:subclase */
+.LFMain .lFMain_img{
+    width:17%;
+    height:100%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.LFMain .lFMain_img .listFiles_Main_imgContainer{
+    background-color: rgb(38, 189, 101); 
+    width:200px;
+    height:80%;
+}
+.LFMain .lFMain_img .listFiles_Main_imgContainer img{
+    width:100%;
+    height:100%;
+}
+/* NOTE:subclase */
+.LFMain .lFMain_Dates{
+    width:35%;
+    height:100%;
+    display:flex; 
+    justify-content: center;
+    align-items: center;
+}
+.LFMain .lFMain_Dates .listFiles_Main_datesContainer{
+    width: 96%;
+    height:80%;
+}
+.LFMain .lFMain_Dates .listFiles_Main_datesContainer h1{
+    font-size:22px;
+    color:#153086;
+}
+.LFMain .lFMain_Dates .listFiles_Main_datesContainer h1 b{
+    font-size:22px;
+    color:#201f58;
+    text-transform: capitalize;
+}
+.LFMain .lFMain_Dates .listFiles_Main_datesContainer button{
+    background-color: rgb(41, 41, 100);
+    color:#dfe1ff;
+    width:100px;
+    height:40px;
+    font-size: 20px;
+    text-transform: capitalize;
+    border-radius: 50px;
+    outline:none;
+    border:none;
+}
+.LFMain .lFMain_Dates .listFiles_Main_datesContainer button:hover{
+    background-color: rgb(40, 40, 66);
+    color:#e3e5f5;
+    width:100px;
+    height:40px;
+    font-size: 19px;
+}
+/* NOTE:subclase */
+.LFMain .LFMain_Replace{
+    width:48%;
+    height:100%;
+    padding: 20px 0px 0px 20px;
+    background-color: #8a8ab4;
+}
+.LFMain .LFMain_Replace h1{
+    font-size:22px;
+    color:#770562;
+    text-transform: capitalize;
+}
+.LFMain .LFMain_Replace > h1:first-child{
+    color:#57014b;
+    font-size:24px;
+}
+.LFMain .LFMain_Replace input{
+    width: 200px;
+}
+.LFMain .LFMain_Replace .lFMR_name{
+    display:inline;
+    margin-left: 15px;
+}
+.LFMain .LFMain_Replace .lFMR_Container{
+    display:flex;
+    margin-top: 10px;
+}
+.LFMain .LFMain_Replace .lFMR_Container .lFMR_Size{
+    width:50%;
+}
+.LFMain .LFMain_Replace .lFMR_Container .lFMR_Type{
+    width:50%;
+}
+.LFMain .LFMain_Replace button{
+    background-color: rgb(100, 41, 80);
+    color:#dfe1ff;
+    width:100px;
+    height:40px;
+    font-size: 20px;
+    text-transform: capitalize;
+    border-radius: 50px;
+    outline:none;
+    border:none;
+    margin-top: 10px;
+}
+.LFMain .LFMain_Replace button:hover{
+    background-color: rgb(88, 41, 73);
+    color:#e3e5f5;
+    font-size: 19px;
+}
+.LFMain .LFMain_Replace progress {
+    width: 90%;
+    height: 12px;
+    margin-top: 20px;
+    border:outset;
+}  
+.LFMain .LFMain_Replace progress::-webkit-progress-value {
+    background: rgb(21, 122, 21);
+}
+.LFMain .LFMain_Replace progress::-moz-progress-bar {
+    background: rgb(0, 204, 255);
+}

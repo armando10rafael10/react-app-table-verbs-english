@@ -1,0 +1,168 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.navegador { 
+    background-color: #663366; 
+    padding: 1px 0px; 
+}
+.navegador ul li { 
+    padding: 1px 1px; 
+    background-color: #300142; 
+    border-right: 1px solid  #8fffe7;
+    width: 13%;
+    height: 35px;
+    float: left; 
+    list-style-type: none; 
+    position: relative;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.navegador ul .logo{
+    width: 48%;
+    justify-content: left;
+} 
+.navegador ul .logo .logo-main .blogger-ico{
+    color:rgb(196, 189, 186);
+    margin-left: 20px;
+} 
+.navegador ul .logo .logo-main .logo-link{
+    color:rgb(196, 189, 186);
+    margin-left: 5px;
+}
+.navegador ul .logo .logo-main .blogger-ico:hover,
+.navegador ul .logo .logo-main .logo-link:hover{
+    text-decoration: underline;
+    color:#8fffe7;
+}
+
+.navegador ul li #sub1, 
+.navegador ul li #sub2{ 
+     position: absolute; 
+     top:100%; 
+     left:0px;  
+     background: #340c69; 
+     font:normal 12px arial;  
+     padding:2px 2px ; 
+     display:block; 
+     display:none; 
+     text-decoration: none;
+     width:100%;
+}				 
+.navegador li #sub1 div, 
+.navegador li #sub2 div{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    height:50px;
+    width:100%;
+}
+.navegador li #sub1 div .link-table, 
+.navegador li #sub2 div .link-table{
+    outline: 1px solid #c8ffcb;
+}
+.navegador li .link-table{
+    display:flex;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+}
+.navegador li .link-table:hover { 
+    color:rgb(238, 255, 0);
+    text-decoration: underline;
+    background-color: rgb(33, 34, 110);
+}
+.navegador li .link-table h2{
+    font-size: 16px;
+    color:rgb(196, 189, 186);
+    width: 80%;
+    height: 100%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.navegador li .link-table h2:hover{
+    text-decoration: underline;
+    color:#8fffe7;
+}
+.navegador li .link-table .icono-main{
+    width: 15%;
+    height: 100%;
+    color:rgb(196, 189, 186);
+    display:flex;
+    justify-content: flex-end;
+    align-items: center;
+    font-size: 16px;
+}
+
+.navegador ul li #sub1 .link-table h2,
+.navegador ul li #sub2 .link-table h2{
+    font-size: 16px;
+    color:rgb(196, 189, 186);
+    width:80%;
+    height: 100%;
+    display:flex;
+    align-items: center;
+    justify-content: left;
+}
+.navegador ul li #sub1 .link-table h2:hover,
+.navegador ul li #sub2 .link-table h2:hover{
+    text-decoration: underline;
+    color:#8fffe7;
+}
+.navegador ul li #sub1 .link-table .content-ico,
+.navegador ul li #sub2 .link-table .content-ico{
+    font-size: 16px;
+    width:20%;
+    height: 100%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navegador li .link-table:link, 
+.navegador li .link-table:visited { 
+    text-decoration: none; 
+}
+.borrar { 
+    clear: both;
+}	
+
+.home-ico{
+    color:rgb(196, 189, 186);
+}
+.options-ico{
+    color:rgb(196, 189, 186);
+}
+.contact-ico{
+    color:rgb(196, 189, 186);
+}
+.listverbs-ico{
+    color:rgb(255, 206, 174);
+}
+.irregular-ico{
+    color:rgb(193, 255, 201);
+}
+.regular-ico{
+    color:rgb(248, 224, 87);
+}
+.history-ico{
+    color:rgb(184, 245, 171);
+}
+.sugerency-ico{
+    color:rgb(255, 194, 214);
+}
+.facebook-ico{
+    color:rgb(216, 207, 252);
+}
+.youtube-ico{
+    color:red;
+    background-color: white;
+}
+.twitter-ico{
+    color:rgb(60, 160, 206);
+}
+.about-ico{
+    color:rgb(196, 189, 186);
+}

@@ -1,0 +1,145 @@
+.contentImg{
+    background-color: rgb(19, 32, 58);
+    padding: 40px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.contentImgAll{
+    background-color: rgb(148, 182, 148);
+    width:570px;
+    height:470px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contentImgAll-1{
+    background-color: rgb(60, 86, 97);
+    width:10%;
+    height: 100%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.contentImgAll-1 .skip-verbs{
+    width:30%;
+    height:10%;
+    background-color: rgb(168, 169, 170);
+    color:rgba(56, 56, 56,0.4);
+    outline: none;
+    cursor:auto;
+    font-size: 12px;
+}
+.contentImgAll-1 button{
+    width:50%;
+    height:15%;
+    background-color: rgb(168, 169, 170);
+    color:rgba(56, 56, 56,0.4);
+    outline: none;
+    cursor:auto;
+}
+.contentImgAll-1 button:hover{
+    width:42%;
+}
+.contentImgAll-2{
+    background-color: rgb(90, 100, 241);
+    width:80%;
+    height: 100%;
+    position:relative;
+    display: inline-block;
+    text-align: center;
+}
+.contentImgAll-2 .contentImgAll-2-img{
+    width:100%;
+    height: 100%;
+}
+.contentImgAll-2 .contentImgAll-2-img:hover{
+    opacity:0.9;
+}
+.contentImgAll-2 .contentImgAll-2-img button{
+    position: absolute;
+    top: 10px;
+    left: 90%;
+    width:40px;
+    height:40px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    background-color: rgb(60, 86, 97);
+}
+.contentImgAll-2 .contentImgAll-2-img button:hover{
+    background-color: rgb(39, 56, 63);
+    width:41px;
+    height:41px;
+}
+.contentImgAll-2 .contentImgAll-2-img button div{
+    font-size: 20px;
+    color:white;
+}
+.contentImgAll-2 .contentImgAll-2-img .title-index{ 
+    position: absolute;
+    top: 4%;
+    left: 50%;
+    width:20%;
+    font-size: 20px;
+    font-family: Calibri;
+    border-radius: 30px;
+    text-transform: capitalize;
+    transform: translate(-50%, -50%);
+    background-color: rgb(60, 86, 97);
+    color:white;
+}
+.contentImgAll-2 .contentImgAll-2-img .title{ 
+    position: absolute;
+    top: 89%;
+    left: 50%;
+    width:90%;
+    color:rgb(0, 0, 0);
+    border-radius: 30px;
+    text-transform: capitalize;
+    transform: translate(-50%, -50%);
+    background-color: rgb(251, 255, 44);
+}
+.contentImgAll-2 .contentImgAll-2-img .title:hover{
+    background-color: rgb(251, 255, 0);
+}
+.contentImgAll-2 .contentImgAll-2-img .title h1{
+    font-size: 26px;
+    font-weight: bold;
+}
+.contentImgAll-2 .contentImgAll-2-img .title h2{
+    font-size:19px;
+
+}
+.contentImgAll-2 .contentImgAll-2-img img{
+    width:100%;
+    height: 100%;
+}
+.contentImgAll-3{
+    background-color: rgb(60, 86, 97);
+    width:10%;
+    height: 100%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.contentImgAll-3 .skip-verbs{
+    width:30%;
+    height:10%;
+    background-color: rgb(64, 73, 77);
+    color:rgb(202, 244, 255);
+    outline: none;
+    font-size: 12px;
+}
+.contentImgAll-3 button{
+    width:50%;
+    height:15%;
+    background-color: rgb(64, 73, 77);
+    color:rgb(202, 244, 255);
+    outline: none;
+}
+.contentImgAll-3 button:hover{
+    width:42%;
+}
